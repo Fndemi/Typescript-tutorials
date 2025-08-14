@@ -40,7 +40,7 @@ export const counterReducer = (
       default:
         const unhandledActionType:never = action
         throw new Error (`Unhandled action type: ${unhandledActionType}.please double check the counter reducer`)
-        return state;
+        
     }
 
 }
