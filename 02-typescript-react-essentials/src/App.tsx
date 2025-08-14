@@ -1,10 +1,10 @@
-// import Component from'./final/05-challenge'
-import Component from './starter/05-challenge'
+import Component from './starter/07-reducers'
+
 function App() {
   return (
     <main>
-   <Component type='advanced' name='susan' email='susan@susan.com' />
-   <Component type='basic' name='susan' />
+   <h2>React & Typescript</h2>
+   <Component/>
    </main>
   );
 }
